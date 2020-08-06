@@ -19,8 +19,8 @@ class Scroll extends Component {
       <View style={{ marginLeft: 15, marginRight: 15, position: 'relative'  }}>
       <Text style={{ marginBottom: 20, fontWeight: '900', fontSize: 20 }}>Menu</Text>
        <Image style={{ width: '100%' }} source={require('../assets/burger.jpg')} />
-       <Text style={{ fontSize: 30, fontWeight: '900', position: 'absolute', top: 70 }}>Daily deals</Text>
-       <Text style={{ }}>On everything you love</Text>
+       <Text style={{ fontSize: 30, fontWeight: '900', position: 'absolute', top: 70, left: 15 }}>Daily deals</Text>
+       <Text style={{ fontSize: 20, fontWeight: 'bold', position: 'absolute', top: 100, left: 15 }}>On everything you love</Text>
       </View>
 
       </ScrollView>
