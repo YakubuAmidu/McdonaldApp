@@ -8,14 +8,15 @@ class Scroll extends Component {
 
       <View style={{}}>
       <Image style={{ width: '100%', height: 190, resizeMode: 'stretch', position: 'relative'}} source={require('../assets/burger2.jpg')} />
-      <Text style={{}}>Cheese bits on</Text>
-      <Text style={{ position: 'absolute', fontSize: 30 }}>the wrapper</Text>
+      <Text style={{ left: 15, position: 'absolute', fontSize: 30, top: 20, fontWeight: '700' }}>Cheese bits on</Text>
+      <Text style={{ left: 15, position: 'absolute', fontSize: 30, top: 50, fontWeight: '700' }}>the wrapper</Text>
+      <Text style={{ }}>Get Morning Started</Text>
       </View>
 
       <View style={{ marginLeft: 15, marginRight: 15, position: 'relative' }}>
       <Image style={{ width: '100%' }} source={require('../assets/burger1.jpg')} />
-      <Text style={{ position: 'absolute', top: 20, fontWeight: '900', fontSize: 30 }}>Love pickles or</Text>
-      <Text  style={{ position: 'absolute', top: 50, fontWeight: '900', fontSize: 30 }}>hate 'em</Text>
+      <Text style={{ position: 'absolute', top: 20, fontWeight: '700', fontSize: 30 }}>Love pickles or</Text>
+      <Text  style={{ position: 'absolute', top: 50, fontWeight: '700', fontSize: 30 }}>hate 'em</Text>
       <Text style={{ backgroundColor: '#FAA41A', width: 150, position: 'absolute',
        top: 110, color: '#000',  textAlign: 'center', paddingTop: 12, paddingBottom: 12 }}>Start Order</Text>
       </View>
