@@ -17,6 +17,7 @@ class Scroll extends Component {
       <Text style={{ fontSize: 10, fontWeight: 'normal', color: '#686868', marginTop: 10, marginBottom:  35, marginLeft: 15, marginRight: 15 }}> Mobile order & pay at participation Mcdonald. McD App registration required.{'\u00A9'}2020 Mcdonald's.</Text>
 
       <View style={{ marginLeft: 15, marginRight: 15 }}>
+      <Text style={{ marginBottom: 20, fontWeight: '900', fontSize: 20 }}>Menu</Text>
        <Image style={{ width: '100%' }} source={require('../assets/burger.jpg')} />
       </View>
 
