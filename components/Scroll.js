@@ -10,7 +10,8 @@ class Scroll extends Component {
       <Image style={{ width: '100%', height: 190, resizeMode: 'stretch', position: 'relative'}} source={require('../assets/burger2.jpg')} />
       <Text style={{ left: 15, position: 'absolute', fontSize: 30, top: 20, fontWeight: '700' }}>Cheese bits on</Text>
       <Text style={{ left: 15, position: 'absolute', fontSize: 30, top: 50, fontWeight: '700' }}>the wrapper</Text>
-      <Text style={{ }}>Get Morning Started</Text>
+      
+      <Text style={{ left: 15, textAlign: 'center', padding: 10, position: 'absolute', top: 120, backgroundColor: '#FAA41A'}}>Get Morning Started</Text>
       </View>
 
       <View style={{ marginLeft: 15, marginRight: 15, position: 'relative' }}>
