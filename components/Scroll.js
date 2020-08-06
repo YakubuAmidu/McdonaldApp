@@ -10,8 +10,11 @@ class Scroll extends Component {
       <Image style={{ width: '100%' }} source={require('../assets/burger1.jpg')} />
       <Text style={{ position: 'absolute', top: 20, fontWeight: '900', fontSize: 30 }}>Love pickles or</Text>
       <Text  style={{ position: 'absolute', top: 50, fontWeight: '900', fontSize: 30 }}>hate 'em</Text>
-      <Text style={{ backgroundColor: '#FAA41A', width: 150, position: 'absolute', top: 100, color: '#000',  textAlign: 'center', paddingTop: 12, paddingBottom: 12 }}>Start Order</Text>
+      <Text style={{ backgroundColor: '#FAA41A', width: 150, position: 'absolute',
+       top: 110, color: '#000',  textAlign: 'center', paddingTop: 12, paddingBottom: 12 }}>Start Order</Text>
       </View>
+
+      <Text style={{ fontSize: 10, fontWeight: 'normal', color: '#686868', marginTop: 10, marginBottom:  35, marginLeft: 15, marginRight: 15 }}> Mobile order & pay at participation Mcdonald. McD App registration required.{'\u00A9'}2020 Mcdonald's.</Text>
 
       <View style={{ marginLeft: 15, marginRight: 15 }}>
        <Image style={{ width: '100%' }} source={require('../assets/burger.jpg')} />
