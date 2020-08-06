@@ -21,6 +21,7 @@ class Scroll extends Component {
        <Image style={{ width: '100%' }} source={require('../assets/burger.jpg')} />
        <Text style={{ fontSize: 30, fontWeight: '900', position: 'absolute', top: 70, left: 15 }}>Daily deals</Text>
        <Text style={{ fontSize: 20, fontWeight: 'bold', position: 'absolute', top: 100, left: 15 }}>On everything you love</Text>
+       <Text style={{ position: 'absolute', paddingTop: 12, paddingBottom: 12, left: 15, top: 150, backgroundColor: '#fff',  width: 150, textAlign: 'center'}}>View Deals</Text>
       </View>
 
       </ScrollView>
