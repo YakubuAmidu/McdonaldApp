@@ -6,6 +6,10 @@ class Scroll extends Component {
     return (
       <ScrollView style={{ top: 50, height: '100%' }}>
 
+      <View>
+      <Image style={{ width: '100%', height: 190, resizeMode: 'stretch' }} source={require('../assets/burger2.jpg')} />
+      </View>
+
       <View style={{ marginLeft: 15, marginRight: 15, position: 'relative' }}>
       <Image style={{ width: '100%' }} source={require('../assets/burger1.jpg')} />
       <Text style={{ position: 'absolute', top: 20, fontWeight: '900', fontSize: 30 }}>Love pickles or</Text>
