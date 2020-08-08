@@ -1,11 +1,11 @@
 import React, { Component } from 'react';
-import { View, StyleSheet, Image, Text } from 'react-native';
+import { View, Text, StyleSheet, Image } from 'react-native';
 
 class BottomTabs extends Component {
   render() {
     return (
-      <View style={{ top: 53, alignItems: 'center', borderTopWidth: 2, borderColor: '#000'}}>
-      <Text>BottomTabs</Text>
+      <View style={{ top: 53, alignItems: 'center', borderTopWidth: .5, borderColor: 'grey'}}>
+      <Text style={{ top: 25 }}>BottomTabs</Text>
       </View>
     );
   };
