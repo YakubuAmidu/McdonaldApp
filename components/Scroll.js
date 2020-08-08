@@ -47,6 +47,10 @@ class Scroll extends Component {
 
       <View style={{ top: 30, marginLeft: 15, marginRight: 15, position: 'relative' }}>
        <Image style={{ width: '100%' }} source={require('../assets/bag.jpg')} />
+       <Text>Order for the</Text>
+       <Text>Whole minivan</Text>
+       <Text>Pull & pick up Curside</Text>
+       <Text>Start Order</Text>
       </View>
 
       </ScrollView>
