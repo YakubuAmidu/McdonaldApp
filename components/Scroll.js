@@ -48,8 +48,8 @@ class Scroll extends Component {
       <View style={{ position: 'relative', top: 30, marginLeft: 15, marginRight: 15 }}>
        <Image style={{ width: '100%' }} source={require('../assets/bag.jpg')} />
        <Text style={{ position: 'absolute', top: 20, left: 10, fontSize: 20, fontWeight: '700', color: '#fff'}}>Order for the</Text>
-       <Text>Whole minivan</Text>
-       <Text>Pull & pick up Curside</Text>
+       <Text style={{ position: 'absolute', top: 48, left: 10, color: '#fff', fontSize: 20, fontWeight: '700' }}>Whole minivan</Text>
+       <Text style={{ position: 'absolute', top: 75, left: 10, color: '#fff', fontSize: 12 }}>Pull & pick up Curside</Text>
        <Text>Start Order</Text>
       </View>
 
