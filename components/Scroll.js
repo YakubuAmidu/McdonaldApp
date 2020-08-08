@@ -4,7 +4,7 @@ import { View, StyleSheet, Text, ScrollView, Image } from 'react-native';
 class Scroll extends Component {
   render() {
     return (
-      <ScrollView style={{ top: 50, height: '100%' }}>
+      <ScrollView style={{ top: 50, height: '75%' }}>
 
       <View style={{}}>
       <Image style={{ width: '100%', height: 190, resizeMode: 'stretch', position: 'relative'}} source={require('../assets/burger2.jpg')} />
