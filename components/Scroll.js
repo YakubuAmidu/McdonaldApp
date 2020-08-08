@@ -40,7 +40,7 @@ class Scroll extends Component {
        <Text style={{ position: 'absolute', top: 90, left: 10, fontSize: 20, fontWeight: '700' }}>One Dollar.</Text>
        <Text style={{ position: 'absolute', top: 115, left: 10, fontSize: 20, fontWeight: '700' }}>Large Fries.</Text>
        <Text style={{ position: 'absolute', top: 145, left: 10, fontSize: 13}}>Only in the App</Text>
-       <Text>Get Deal</Text>
+       <Text style={{ position: 'absolute', width: 160, left: 15, paddingTop: 12, paddingBottom: 12, top: 185, backgroundColor: '#fff', textAlign: 'center'}}>Get Deal</Text>
       </View>
 
       </ScrollView>
