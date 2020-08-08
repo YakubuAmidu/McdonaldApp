@@ -43,6 +43,8 @@ class Scroll extends Component {
        <Text style={{ position: 'absolute', width: 160, left: 15, paddingTop: 12, paddingBottom: 12, top: 185, backgroundColor: '#fff', textAlign: 'center'}}>Get Deal</Text>
       </View>
 
+      <Text style={{ fontSize: 9, left: 15, right: 15, color: '#686868' }}>Valid thru 9/27/20 at participation Mcdonald's. McD App registration required. {'\u00A9'} 2020 McDonal's</Text>
+
       </ScrollView>
     )
   }
