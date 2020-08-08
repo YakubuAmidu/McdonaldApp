@@ -39,7 +39,7 @@ class Scroll extends Component {
        <Image style={{ width: '100%' }} source={require('../assets/fries.jpg')} />
        <Text style={{ position: 'absolute', top: 90, left: 10, fontSize: 20, fontWeight: '700' }}>One Dollar.</Text>
        <Text style={{ position: 'absolute', top: 115, left: 10, fontSize: 20, fontWeight: '700' }}>Large Fries.</Text>
-       <Text>Only in the App</Text>
+       <Text style={{ position: 'absolute', top: 145, left: 10, fontSize: 13}}>Only in the App</Text>
        <Text>Get Deal</Text>
       </View>
 
