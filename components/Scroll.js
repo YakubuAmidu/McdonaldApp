@@ -35,7 +35,7 @@ class Scroll extends Component {
       </View>
 
       <View style={{ marginLeft: 15, marginRight: 15, position: 'relative' }}>
-      <Text style={{ paddingTop: 20, paddingBottom: 20, left: 10, fontSize: 20, fontWeight: '900' }}>Trending</Text>
+      <Text style={{ paddingTop: 25, paddingBottom: 17, left: 10, fontSize: 20, fontWeight: '900' }}>Trending</Text>
        <Image style={{ width: '100%' }} source={require('../assets/fries.jpg')} />
        <Text style={{ position: 'absolute', top: 90, left: 10, fontSize: 20, fontWeight: '700' }}>One Dollar.</Text>
        <Text style={{ position: 'absolute', top: 115, left: 10, fontSize: 20, fontWeight: '700' }}>Large Fries.</Text>
@@ -44,6 +44,10 @@ class Scroll extends Component {
       </View>
 
       <Text style={{ fontSize: 9, left: 15, right: 15, color: '#686868' }}>Valid thru 9/27/20 at participation Mcdonald's. McD App registration required. {'\u00A9'} 2020 McDonal's</Text>
+
+      <View style={{ top: 30, marginLeft: 15, marginRight: 15, position: 'relative' }}>
+       <Image style={{ width: '100%' }} source={require('../assets/bag.jpg')} />
+      </View>
 
       </ScrollView>
     )
