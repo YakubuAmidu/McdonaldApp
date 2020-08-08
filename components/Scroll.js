@@ -34,9 +34,13 @@ class Scroll extends Component {
        <Text style={{ position: 'absolute', paddingTop: 12, paddingBottom: 12, left: 15, top: 100, backgroundColor: '#fff',  width: 150, textAlign: 'center'}}>View Deals</Text>
       </View>
 
-      <View>
+      <View style={{ marginLeft: 15, marginRight: 15, position: 'relative' }}>
       <Text style={{ paddingTop: 20, paddingBottom: 20, left: 10, fontSize: 20, fontWeight: '900' }}>Trending</Text>
-       <Image style={{ width: '100%', height: 170 }} source={require('../assets/fries.jpg')} />
+       <Image style={{ width: '100%' }} source={require('../assets/fries.jpg')} />
+       <Text>One Dollar.</Text>
+       <Text>Large Fries.</Text>
+       <Text>Only in the App</Text>
+       <Text>Get Deal</Text>
       </View>
 
       </ScrollView>
