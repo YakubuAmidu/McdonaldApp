@@ -16,7 +16,7 @@ class BottomTabs extends Component {
         <Text>Order</Text>
       </View>
 
-      <View>
+      <View style={{ top: 30 }}>
         <Image style={{ width: 30, height: 30 }} source={require('../assets/deals.png')} />
         <Text>Deals</Text>
       </View>
