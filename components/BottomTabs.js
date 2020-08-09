@@ -5,7 +5,17 @@ class BottomTabs extends Component {
   render() {
     return (
       <View style={{ top: 53, alignItems: 'center', borderTopWidth: .5, borderColor: 'grey'}}>
-      <Text style={{ top: 25 }}>BottomTabs</Text>
+
+      <View>
+      <Image source={require('../assets/logo2.png')} />
+        <Text>Home</Text>
+      </View>
+
+      <View>
+        <Image source={require('../assets/fries2.jpg')} />
+        <Text>Order</Text>
+      </View>
+
       </View>
     );
   };
