@@ -21,6 +21,11 @@ class BottomTabs extends Component {
         <Text>Deals</Text>
       </View>
 
+      <View>
+        <Image style={{ width: 30, height: 30 }} source={require('../assets/recent.png')} />
+        <Text>Recents</Text>
+      </View>
+
       </View>
     );
   };
